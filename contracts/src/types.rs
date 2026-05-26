@@ -19,7 +19,7 @@ pub enum DataKey {
     Admin,
     Oracle,
     ActiveRound,
-    Positions, // Legacy key kept for read-only migration compatibility
+    Positions,          // Legacy key kept for read-only migration compatibility
     UpDownPositions,    // Map<Address, UserPosition> for Up/Down mode
     PrecisionPositions, // Map<Address, PrecisionPrediction> for Precision mode
     PendingWinnings(Address),
